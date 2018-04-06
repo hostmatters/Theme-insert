@@ -3,9 +3,9 @@
  * Plugin Name: Theme Insert
  * Plugin URI:
  * Description: .
- * Version: 1.3
+ * Version: 1.4
  * Author: Niels
- * Author URI:
+ * Author URI: http://www.webninjas.nl
  */
 
 
@@ -85,5 +85,5 @@
 		$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 			'https://github.com/hostmatters/Theme-insert/',
 			__FILE__,
-			'Test-Auto-update'
+			'Theme-insert'
 		);
